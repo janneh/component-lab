@@ -1,0 +1,36 @@
+{
+  "name": "component-lab",
+  "version": "1.0.0",
+  "description": "Development environment for React components",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "author": "janneh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janneh/component-lab.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "boilerplate"
+  ],
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-eslint": "latest",
+    "babel-loader": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-0": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react": "latest",
+    "react-hot-loader": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
